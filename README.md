@@ -11,3 +11,5 @@ cd blackjack_cli
 cargo build --release
 ```
 
+## Future Plans
+I plan on adding a betting system so you can bet a certain amount and save it.
