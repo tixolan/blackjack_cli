@@ -1,9 +1,11 @@
 use std::io::Write;
 use std::thread::sleep;
 use std::time;
+use std::env;
 use crate::cards::{Symbols::ACE, Card, display_cards, gen_deck};
 
 mod cards;
+mod store;
 
 fn clear_screen() {
     print!("{esc}[2J{esc}[1;1H", esc = 27 as char);
